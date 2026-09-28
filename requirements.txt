@@ -1,0 +1,4 @@
+# 仅用于语料体检（PDF 文字层与页数检测）
+# 文本提取依赖 Calibre 的 ebook-convert，非 Python 包
+pypdf>=5.0
+

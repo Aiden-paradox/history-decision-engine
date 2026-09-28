@@ -1,0 +1,29 @@
+# 语料原文：全部为商业出版物电子本，禁止入库
+data/full/
+*.azw3
+*.mobi
+*.epub
+*.pdf
+*.tiff
+
+# 中间产物
+work/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 报告与临时文件
+*.tmp
+*_report.txt
+
+# 凭证（本项目不需要任何密钥，此条为默认防护）
+.env
+*.key
+*.pem
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+

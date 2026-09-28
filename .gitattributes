@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+# 语料与电子书为二进制，不做行尾转换
+*.epub binary
+*.mobi binary
+*.azw3 binary
+*.pdf binary
