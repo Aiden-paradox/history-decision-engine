@@ -39,16 +39,17 @@ def load_keywords(card: Path) -> list[str]:
 def main() -> int:
     ap = argparse.ArgumentParser(description="案例卡漏检检查")
     ap.add_argument("--cards", required=True, help="案例卡目录")
-    ap.add_argument("--corpus", required=True, help="语料目录")
+    ap.add_argument("--corpus", required=True, action="append", help="语料目录（可重复指定）")
     ap.add_argument("--suffixes", default=".txt")
     ap.add_argument("--only", help="只检查匹配该通配符的卡片，例如 case-001*")
     args = ap.parse_args()
 
     suffixes = tuple(s.strip() for s in args.suffixes.split(",") if s.strip())
     corpus_texts = []
-    for p in sorted(Path(args.corpus).rglob("*")):
-        if p.is_file() and p.suffix.lower() in suffixes:
-            corpus_texts.append(normalize(p.read_text(encoding="utf-8", errors="replace")))
+    for root in args.corpus:
+        for p in sorted(Path(root).rglob("*")):
+            if p.is_file() and p.suffix.lower() in suffixes:
+                corpus_texts.append(normalize(p.read_text(encoding="utf-8", errors="replace")))
 
     if not corpus_texts:
         print("语料为空，无法检查", file=sys.stderr)

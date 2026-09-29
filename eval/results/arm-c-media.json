@@ -1,0 +1,127 @@
+{
+  "analysis": "eval\\results\\arm-c-media.md",
+  "corpus": [
+    "C:\\Users\\Lenovo\\Documents\\Codex\\2026-09-23\\vs-code\\work\\corpus2",
+    "C:\\Users\\Lenovo\\Documents\\Codex\\2026-09-23\\vs-code\\work\\corpus-txt"
+  ],
+  "corpus_chars": 32313708,
+  "quotes_total": 18,
+  "quotes_ok": 18,
+  "quotes_partial": 0,
+  "quotes_unverifiable": 0,
+  "verifiable_rate": 1.0,
+  "source_marked": 0,
+  "source_marked_rate": 0.0,
+  "structure_covered": 8,
+  "structure_total": 9,
+  "details": [
+    {
+      "quote": "臣闻贤圣之君不以禄私亲，其功多者赏之，其能当者处之。  ……  臣闻之，善作者不必善成，善始者不必善终。昔伍子胥说听于阖…",
+      "coverage": 0.904,
+      "verdict": "可核",
+      "marked": false
+    },
+    {
+      "quote": "始齐之蒯通及主父偃读乐毅之报燕王书，未尝不废书而泣也。",
+      "coverage": 1.0,
+      "verdict": "可核",
+      "marked": false
+    },
+    {
+      "quote": "惠王自为太子时尝不快于乐毅。",
+      "coverage": 1.0,
+      "verdict": "可核",
+      "marked": false
+    },
+    {
+      "quote": "乐毅知燕惠王之不善代之，畏诛，遂西降赵。",
+      "coverage": 1.0,
+      "verdict": "可核",
+      "marked": false
+    },
+    {
+      "quote": "将军自为计则可矣，而亦何以报先王之所以遇将军之意乎？",
+      "coverage": 1.0,
+      "verdict": "可核",
+      "marked": false
+    },
+    {
+      "quote": "于是燕王复以乐毅子乐闲为昌国君；而乐毅往来复通燕。燕、赵以为客卿。乐毅卒于赵。",
+      "coverage": 1.0,
+      "verdict": "可核",
+      "marked": false
+    },
+    {
+      "quote": "先为不可胜，以待敌之可胜。",
+      "coverage": 1.0,
+      "verdict": "可核",
+      "marked": false
+    },
+    {
+      "quote": "王翦言不用，因谢病，归老于频阳。",
+      "coverage": 1.0,
+      "verdict": "可核",
+      "marked": false
+    },
+    {
+      "quote": "王翦行，请美田宅园池甚众。……王翦既至关，使使还请善田者五辈。",
+      "coverage": 1.0,
+      "verdict": "可核",
+      "marked": false
+    },
+    {
+      "quote": "夫秦王怚而不信人。今空秦国甲士而专委于我，我不多请田宅为子孙业以自坚，顾令秦王坐而疑我邪？",
+      "coverage": 1.0,
+      "verdict": "可核",
+      "marked": false
+    },
+    {
+      "quote": "然不能辅秦建德，固其根本，偷合取容，以至殁身。",
+      "coverage": 1.0,
+      "verdict": "可核",
+      "marked": false
+    },
+    {
+      "quote": "且臣闻勇略震主者身危，而功盖天下者不赏。……夫势在人臣之位而有震主之威，名高天下，窃为足下危之！",
+      "coverage": 1.0,
+      "verdict": "可核",
+      "marked": false
+    },
+    {
+      "quote": "韩信犹豫，不忍倍汉，又自以为功多，汉终不夺我齐。",
+      "coverage": 1.0,
+      "verdict": "可核",
+      "marked": false
+    },
+    {
+      "quote": "信知汉王畏恶其能，常称病不朝从。信由此日夜怨望，居常鞅鞅，羞与绛、灌等列。",
+      "coverage": 1.0,
+      "verdict": "可核",
+      "marked": false
+    },
+    {
+      "quote": "信方斩，曰：\"吾悔不用蒯通之计，乃为儿女子所诈，岂非天哉！\"遂夷信三族。",
+      "coverage": 1.0,
+      "verdict": "可核",
+      "marked": false
+    },
+    {
+      "quote": "毒天下而以自毒者，其唯贪功之人乎！……乃韩信一启贪功之心，从蒯彻之说，疾击已降，而郦生烹。",
+      "coverage": 1.0,
+      "verdict": "可核",
+      "marked": false
+    },
+    {
+      "quote": "人主之患在于信人。信人，则制于人。",
+      "coverage": 1.0,
+      "verdict": "可核",
+      "marked": false
+    },
+    {
+      "quote": "凡说之难，在知所说之心，可以吾说当之。",
+      "coverage": 1.0,
+      "verdict": "可核",
+      "marked": false
+    }
+  ]
+}
